@@ -54,10 +54,10 @@ Before you begin, ensure you have the following installed:
 
 ## 📂 Project Structure
 ```
-nodejs-learning/
-├── basics/               # Basic concepts and examples
+NODE_JS/
+├── Modules/               # Basic concepts and examples
 ├── projects/             # Small projects to practice
-├── notes.md              # Important notes and references
+├── readme.md              # Important notes and references
 └── package.json          # Project dependencies
 ```
 
@@ -84,7 +84,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 Happy Coding! 🚀  
-[Your Name]  
-[Your Contact Information]  
+Shivam Pandey  
+shivam.2502pandey@gmail.com 
 
 *This README will be updated as I progress through my Node.js learning journey.*
