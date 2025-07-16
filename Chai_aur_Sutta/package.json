@@ -1,22 +1,11 @@
 {
-  "name": "node_js",
+  "name": "chai_aur_sutta",
   "version": "1.0.0",
-  "description": "This repository documents my journey of learning Node.js from the basics. I'll be adding code examples, projects, and notes as I progress through various Node.js concepts.",
-  "homepage": "https://github.com/Shivam250202/Node_JS#readme",
-  "bugs": {
-    "url": "https://github.com/Shivam250202/Node_JS/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shivam250202/Node_JS.git"
-  },
+  "description": "Learning Node JS",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

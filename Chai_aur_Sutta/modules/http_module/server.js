@@ -6,7 +6,7 @@ const http = require("http")
 const server = http.createServer((req, res) => {
      if (req.url === "/") {
         res.setHeader("Content-Type", "text/html");
-        res.write("<h1> I am Shivam Pandey and I am a Software Developer </h1>");
+        res.write("<h1> I am Shivam Pandey and I am a Software Developer. Let's Begin! </h1>");
         res.end();
      }
      if (req.url === "/blog") {
