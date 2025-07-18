@@ -25,28 +25,16 @@
       <ul id="shortened-urls"></ul>
     </div>
     <script>
-      <!-- Add this inside your <script> tag in index.html -->
-document.getElementById("shorten-form")
-  .addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-    const url = formData.get('url');
-    const shortCode = formData.get('shortCode');
+      document
+        .getElementById("shorten-form")
+        .addEventListener("submit", (event) => {
+            event.preventDefault();
+            const formData = new FormData (event.target);
+            const url = formData.get('url');
+            const shortCode = formData.get('shortCode');
 
-    // Send to backend
-    const response = await fetch('http://localhost:3000/api/shorten', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url, shortCode })
-    });
-    const result = await response.json();
-
-    // Show in list
-    const ul = document.getElementById('shortened-urls');
-    const li = document.createElement('li');
-    li.innerHTML = `<a href="http://localhost:3000/${result.shortCode}" target="_blank">${result.shortCode}</a> → ${result.url}`;
-    ul.appendChild(li);
-  });
+            console.log(url, shortCode);
+        });
     </script>
   </body>
 </html>
