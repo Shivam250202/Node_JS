@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #23272f;
+  color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: 40px auto;
+  background: #2f3640;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 32px 24px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #00a8ff;
+}
+
+form {
+  margin-bottom: 28px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #fbc531;
+}
+
+input[type="url"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 16px;
+  border: 1px solid #353b48;
+  border-radius: 6px;
+  background: #353b48;
+  color: #f5f6fa;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input[type="url"]:focus,
+input[type="text"]:focus {
+  border-color: #00a8ff;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 0;
+  background: #00a8ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 29px;
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #0097e6;
+}
+
+h2 {
+  color: #fbc531;
+  margin-bottom: 12px;
+}
+
+ul#shortened-urls {
+  list-style: none;
+  padding: 0;
+}
+
+ul#shortened-urls li {
+  background: #353b48;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #fff;
+  word-break: break-all;
+}
